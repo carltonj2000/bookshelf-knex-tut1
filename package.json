@@ -1,0 +1,16 @@
+{
+  "name": "bookshelf-knex-tut1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "db:start": "pg_ctl -D /usr/local/var/postgres start",
+    "db:stop": "pg_ctl -D /usr/local/var/postgres stop"
+  },
+  "dependencies": {
+    "bookshelf": "^1.0.1",
+    "knex": "^0.20.8",
+    "pg": "^7.17.1",
+    "winston": "^3.2.1"
+  }
+}
